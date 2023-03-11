@@ -1,0 +1,54 @@
+body{
+    font-family: Open sans-serif;
+    background-image: url('arbre.jpeg');
+}
+
+
+* {
+    margin: 20;
+    padding: 20;
+    text-decoration: rgb(10, 10, 239);
+    list-style: none;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    position: absolute;
+    margin: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box
+    
+    
+   
+}
+
+.navbar a {
+    color: rgb(238, 240, 245);
+
+} 
+
+
+.navbar .nav-link ul li {
+    margin-right: 10px;
+}
+
+.navbar .nav-link ul li.active a {
+    color: rgb(232, 18, 18);
+    width: 600;
+
+
+}
+
+.items{
+    display: flex;
+
+}
+li{
+    margin: 5px;
+}
